@@ -90,7 +90,7 @@ nav ul li{
 main{
     margin-top: 65px;
 }
-.features{
+.team-features{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -106,11 +106,11 @@ main{
     border-radius: 8px;
     margin-left: 20%;
 }
-.feature-info{
+.team-feature-info{
     width: 537px;
     height: 304px;
 }
-.feature-info h3{
+.team-feature-info h3{
     font-size: 45px;
     line-height: 53px;
     margin-bottom: 24px;
@@ -127,12 +127,65 @@ main{
     font-weight: 700;
     color: #FF900E;
 }
-.feature-info p{
+.team-feature-info p{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
 }
-.feature-info .explore-button{
+.team-feature-info .explore-button{
     margin-top: 32px;
+}
+
+/* All features styles */
+.all-features{
+    width: 1440px;
+    height: 1059px;
+    margin: 0px 240px;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+
+}
+.all-features h3{
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+.feature-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.all-features p{
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+article{
+    width: 586px;
+    height: 171px;
+    border: 0px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 20px;
+}
+article h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    padding-top: 30px;
+    padding-left: 33px;
+    padding-bottom: 10px;
+}
+article p{
+    color: #727272;
+    line-height: 26px;
+    padding-left: 33px;
+}
+.all-features img{
+    width: 800px;
+    height: 1059px;
 }
