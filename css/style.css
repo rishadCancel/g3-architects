@@ -327,22 +327,5 @@ footer p{
     color: #424242;
 }
 
-/* main, footer{
-    display: none;
-} */
 
-/* Responsive styles */
-@media screen and (max-width: 767px){
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul{
-        display: flex;
-        flex-direction: column;
-    }
-    .banner-info{
-        width: fit-content;
-    }
-}
+
