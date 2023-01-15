@@ -24,15 +24,13 @@ body{
 }
 
 /* Header Styles */
-header{
-    
+header{    
     background: rgba(255, 144, 14, 0.1);
 }
 .header{
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
 }
 nav ul{
     display: flex;
@@ -65,7 +63,6 @@ nav ul li{
     color: #727272;
     margin-top: 20px;
 }
-
 .banner-image{
     width: 1440px;
     height: 700px;
@@ -145,7 +142,6 @@ main{
     margin-top: 130px;
     display: flex;
     align-items: center;
-
 }
 .all-features h3{
     border-left: 5px solid #FF900E;
@@ -189,14 +185,32 @@ article p{
     width: 800px;
     height: 1059px;
 }
+.arch-image{
+    position: relative;
+}
+.exp-button{
+    position: absolute;
+    left: 50%;
+    background-color: #FF900E;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0px solid #FF900E;
+    padding: 50px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
 
 /* Facts section styles */
 .facts{
     width: 1440px;
     margin-left: 240px;
+    margin-top: 80px;
+    
 }
-.facts-texts{
-    width: 542px;
+.facts .facts-texts{
+    margin-top: 20px;
+    width: 510px;
 }
 .icons{
     display: flex;
@@ -208,17 +222,19 @@ article p{
     height: 241.83px;
     margin-top: 50px;
     border: 1px solid #FF900E;
-    border-radius: 8px;
-    
+    border-radius: 8px; 
+    transition: width 2s, height 2s, transform 2s;   
 }
-
+.icon:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
  .icon-info{
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
-
-
 .icon-info-img{
     width: 45.22px;
     height: 45.22px;
@@ -240,7 +256,6 @@ article p{
     font-size: 20px;
     line-height: 23px;
     color: #727272;
-    margin-bottom: 50px;
 }
 
 /* Our sponsors section sttyles */
@@ -274,8 +289,27 @@ article p{
     filter: grayscale(100%);
     width: 153.33px;
     height: 50px;  
+    
 }
 
+/* Previous Clients Secion */
+.prev-clients h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.client-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.client-image img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+}
 /* Footer Styles */
 footer{
     width: 1440px;
@@ -293,3 +327,22 @@ footer p{
     color: #424242;
 }
 
+/* main, footer{
+    display: none;
+} */
+
+/* Responsive styles */
+@media screen and (max-width: 767px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-info{
+        width: fit-content;
+    }
+}
