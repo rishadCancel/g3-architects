@@ -195,7 +195,7 @@ article p{
     width: 1440px;
     margin-left: 240px;
 }
-.facts p{
+.facts-texts{
     width: 542px;
 }
 .icons{
@@ -215,13 +215,20 @@ article p{
  .icon-info{
     display: flex;
     flex-direction: column;
-    /* align-items: center;  */
+    align-items: center; 
 }
 
 
-.icon-info img{
+.icon-info-img{
     width: 45.22px;
     height: 45.22px;
-    margin: 45px 98px 151px;
+    padding-top: 30%;
+}
+.icon-info2{
+    text-align: center;
+    padding-top: 10%;
+}
+.icon-info2 p{
+    padding-top: 10%;
 }
 
