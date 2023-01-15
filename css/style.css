@@ -228,7 +228,68 @@ article p{
     text-align: center;
     padding-top: 10%;
 }
+.icon-info2 h4{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
 .icon-info2 p{
     padding-top: 10%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+/* Our sponsors section sttyles */
+.our-sponsors{
+    margin-top: 150px;
+    margin-bottom: 130px;
+}
+.sponsor-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.sponsor-text{
+    width: 542px;
+    height: 52px;
+    margin-left: 689px;
+    line-height: 26px;
+    color: #727272;
+}
+.sponsor-images{
+    width: 1440px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sponsor-image{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 153.33px;
+    height: 50px;  
+}
+
+/* Footer Styles */
+footer{
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 216px;
+}
+footer p{
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
 }
 
